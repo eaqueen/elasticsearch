@@ -1,5 +1,5 @@
 [[query-filter-context]]
-== Query and filter context
+== 查询和过滤上下文
 
 [float]
 [[relevance-scores]]
