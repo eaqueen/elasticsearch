@@ -3,6 +3,7 @@
 [partintro]
 --
 _**You know, for search (and analysis)**_
+_**你知道的，为了搜索（和分析）**_
 
 {es} is the distributed search and analytics engine at the heart of
 the {stack}. {ls} and {beats} facilitate collecting, aggregating, and
@@ -10,6 +11,7 @@ enriching your data and storing it in {es}. {kib} enables you to
 interactively explore, visualize, and share insights into your data and manage
 and monitor the stack. {es} is where the indexing, search, and analysis
 magic happen.
+Elasticsearch是Elastic Stack核心的分布式搜索和分析引擎。Logstash和Beats有助于收集、聚合和丰富您的数据并将其存储在Elasticsearch中。Kibana使你能够交互式地探索，可视化和分享你对数据的洞察，并管理和监视堆栈。 Elasticsearch是建立索引，实现搜索和分析的神奇之地。
 
 {es} provides real-time search and analytics for all types of data. Whether you
 have structured or unstructured text, numerical data, or geospatial data,
@@ -18,23 +20,32 @@ You can go far beyond simple data retrieval and aggregate information to discove
 trends and patterns in your data. And as your data and query volume grows, the
 distributed nature of {es} enables your deployment to grow seamlessly right
 along with it.
+Elasticsearch为所有类型的数据提供实时搜索和分析。无论是结构化文本还是非结构化文本，数字型数据或地理空间数据，Elasticsearch都能以支持快速搜索的方式有效地对其进行存储和索引。您不仅可以进行简单的数据检索，还可以聚合信息来发现数据中的趋势和模式。 随着数据和查询量的增长，Elasticsearch的分布式特性使您的部署可以随之无缝地增长。
 
 While not _every_ problem is a search problem, {es} offers speed and flexibility
 to handle data in a wide variety of use cases:
+尽管并非每个问题都是搜索问题，但Elasticsearch都提供了速度和灵活性来处理各种用例中的数据：
 
 * Add a search box to an app or website
+* 将搜索框添加到应用或网站
 * Store and analyze logs, metrics, and security event data
+* 存储和分析日志，指标和安全事件数据
 * Use machine learning to automatically model the behavior of your data in real
   time
+* 使用机器学习自动实时建模数据行为
 * Automate business workflows using {es} as a storage engine
+* 自动业务流量使用Elasticsearch作为存储引擎
 * Manage, integrate, and analyze spatial information using {es} as a geographic
   information system (GIS)
+* 使用Elasticsearch作为地理信息系统（GIS）管理，集成和分析空间信息
 * Store and process genetic data using {es} as a bioinformatics research tool
+* 使用Elasticsearch作为生物信息学研究工具来存储和处理遗传数据
 
 We’re continually amazed by the novel ways people use search. But whether
 your use case is similar to one of these, or you're using {es} to tackle a new
 problem, the way you work with your data, documents, and indices in {es} is
 the same.
+人们使用搜索的新颖方式使我们不断感到惊讶。 但是，无论您的用例是其中之一还是使用Elasticsearch解决新问题，在Elasticsearch中处理数据，文档和索引的方式都是相同的。
 --
 
 [[documents-indices]]
